@@ -1,0 +1,22 @@
+# Variables de entorno y secretos (NUNCA subir a GitHub)
+.env
+
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos SQLite temporal y archivos estáticos compilados
+db.sqlite3
+staticfiles/
+
+# Archivos temporales de SonarQube local e IDEs
+.scannerwork/
+.vscode/
+.idea/
+.DS_Store
